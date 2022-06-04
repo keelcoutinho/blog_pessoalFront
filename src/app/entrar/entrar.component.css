@@ -1,0 +1,8 @@
+#img-bg{
+    background-image: url("https://media.vanityfair.fr/photos/60d3729170d918d588008cac/5:7/w_510,h_714,c_limit/vf_main_chewbacca_8102.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 600px;
+}

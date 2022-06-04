@@ -1,0 +1,8 @@
+#img-bg{
+    background-image: url("https://www.idlewp.com/wp-content/uploads/2021/11/darth-vader-wallpaper-idlewp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 600px;
+}
