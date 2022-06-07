@@ -5,4 +5,5 @@
     background-size: cover;
     height: 750px;
     width: 600px;
+    display: flex;
 }
