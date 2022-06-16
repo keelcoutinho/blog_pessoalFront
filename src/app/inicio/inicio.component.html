@@ -31,12 +31,12 @@
           
           <a class="nav-link text-secondary font-wight-bold" id="nav-postagemTema-tab" data-toggle="tab" href="#navpostagemTema" role="tab" aria-controls="nav-postagemTema" aria-selected="false" style="background: black;">Postagem por Tema</a>
         </div>
-      </nav>
-      <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="todasPostagens" role="tabpanel" aria-labelledby="nav-todasPostagens-tab">Todas as postagens</div>        
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade" id="todasPostagens" role="tabpanel" aria-labelledby="nav-todasPostagens-tab">Todas as postagens</div>        
         <div class="tab-pane fade" id="minhasPostagens" role="tabpanel" aria-labelledby="nav-minhasPostagens-tab">Minhas Postagens</div>
         <div class="tab-pane fade" id="postagemTema" role="tabpanel" aria-labelledby="nav-postagemTema-tab">Postagem por Tema</div>
-      </div>
+    </div>
       
 </div>
 
@@ -47,7 +47,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="TituloModalCentralizado">Nova Postagem</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="fechar">
+          <button type="button" class="close" data-dismiss="modal" aria-label="fechar" style="border:0; background: white;">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -61,7 +61,7 @@
             </div>  
             <br>
             <div class="form-group">
-                <label for="texto">Escolha um tema ou <a href="">cadastre um novo</a>: </label>
+                <label for="texto">Escolha um tema ou <a data-dismiss="modal" routerLink="/tema">cadastre um novo:</a> </label>
                 <select name="tema" id="tema" class="form-control">
                     <option selected disabled>Selecione</option>
                     <option value="filmes">Filmes</option>
