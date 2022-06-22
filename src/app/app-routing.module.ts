@@ -10,7 +10,8 @@ const routes: Routes = [
   {path: 'entrar', component:EntrarComponent},
   {path: 'cadastrar', component:CadastrarComponent},
   {path: 'inicio', component:InicioComponent},
-  {path: 'tema', component:TemaComponent}
+  {path: 'tema', component:TemaComponent},
+  
 ];
 
 @NgModule({
